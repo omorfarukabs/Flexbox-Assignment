@@ -1,0 +1,120 @@
+:root {
+  --color1: #410960;
+  --color2: #BA54D4;
+  --color3: #FCA811;
+  --color4: #F2404E;
+  --color5: #00BECE;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+.left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-top-container {
+  width: 100%;
+  height: 80px;
+  background-color: var(--color2);
+}
+
+.left-bottom-container {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+.left-left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-left-one {
+  height: 60px;
+  background-color: var(--color3);
+}
+
+.left-left-two {
+  height: 150px;
+  background-color: var(--color4);
+}
+
+.left-right-container {
+  width: 50%;
+  height: 220px;
+  background-color: var(--color5);
+}
+
+.right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-top-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.right-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-left-one {
+  height: 60px;
+  background-color: var(--color4);
+}
+
+.right-left-two {
+  height: 30px;
+  background-color: var(--color5);
+}
+
+.right-left-three {
+  height: 80px;
+  background-color: var(--color3);
+}
+
+.right-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-right-one {
+  height: 70px;
+  background-color: var(--color5);
+}
+
+.right-right-two {
+  height: 50px;
+  background-color: var(--color3);
+}
+
+.right-right-three {
+  height: 50px;
+  background-color: var(--color4);
+}
+
+.right-bottom-container {
+  width: 100%;
+  height: 110px;
+  background-color:  var(--color2);
+}
